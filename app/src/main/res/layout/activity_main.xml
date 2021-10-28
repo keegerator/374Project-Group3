@@ -38,11 +38,11 @@
     <Button
         android:layout_width="380dp"
         android:layout_height="70dp"
-        android:id="@+id/signIn"
+        android:id="@+id/nextPage"
         android:layout_marginTop="24dp"
         android:backgroundTint="#0ED685"
-        android:text="Next"
         android:textColor="#ffffff"
+        android:text="Next"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
