@@ -35,7 +35,7 @@ public class Menu  extends AppCompatActivity implements View.OnClickListener {
             startActivity(new Intent(this,securityQuiz.class));
         }
         else if (id == password.getId()){
-            startActivity(new Intent(this,passwordStrength.class));
+            startActivity(new Intent(this,PasswordStrength.class));
         }
         else
             startActivity(new Intent(this,recommendedSettings.class));
