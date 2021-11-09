@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<?xml version="1.0" encoding="UTF-8"?>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout android:background="@color/cardview_dark_background" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black" android:textSize="15sp" android:id="@+id/textQuestion" android:layout_marginLeft="60dp" android:layout_marginTop="40sp" android:text="Hello World!"/>
+
+
+    -<RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/answerGroup" android:layout_alignLeft="@id/textQuestion" android:layout_below="@id/textQuestion">
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionOne" android:text=""/>
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionTwo" android:text="" android:layout_alignLeft="@id/answerGroup"/>
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionThree" android:text="" android:layout_alignLeft="@id/answerGroup" android:layout_below="@id/optionTwo"/>
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionFour" android:text="" android:layout_alignLeft="@id/answerGroup" android:layout_below="@id/optionThree"/>
+
+</RadioGroup>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerGroup"
+        android:layout_centerHorizontal="true"
+        android:onClick="submit"
+        android:text="submit" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/scoreTracker" android:text="" android:layout_below="@id/submitButton" android:layout_centerHorizontal="true"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/nextButton" android:text="next" android:layout_below="@id/scoreTracker" android:onClick="next" android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
