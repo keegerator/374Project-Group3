@@ -1,19 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-    <RelativeLayout android:background="@color/cardview_dark_background" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity">
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fontFamily="sans-serif-black">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/black" android:textSize="15sp" android:id="@+id/textQuestion" android:layout_marginLeft="60dp" android:layout_marginTop="40sp" android:text="Hello World!"/>
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40sp"
+        android:textStyle="bold"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="15sp" />
 
 
-    -<RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/answerGroup" android:layout_alignLeft="@id/textQuestion" android:layout_below="@id/textQuestion">
+    -<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/answerGroup"
+    android:layout_alignLeft="@id/textQuestion"
+    android:layout_below="@id/textQuestion">
 
-    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionOne" android:text=""/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionOne"
+        android:text=""/>
 
-    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionTwo" android:text="" android:layout_alignLeft="@id/answerGroup"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionTwo"
+        android:text=""
+        android:layout_alignLeft="@id/answerGroup"/>
 
-    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionThree" android:text="" android:layout_alignLeft="@id/answerGroup" android:layout_below="@id/optionTwo"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionThree"
+        android:text=""
+        android:layout_alignLeft="@id/answerGroup"
+        android:layout_below="@id/optionTwo"/>
 
-    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/optionFour" android:text="" android:layout_alignLeft="@id/answerGroup" android:layout_below="@id/optionThree"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/optionFour"
+        android:text=""
+        android:layout_alignLeft="@id/answerGroup"
+        android:layout_below="@id/optionThree"/>
 
 </RadioGroup>
 
@@ -26,8 +67,32 @@
         android:onClick="submit"
         android:text="submit" />
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/scoreTracker" android:text="" android:layout_below="@id/submitButton" android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreTracker"
+        android:text=""
+        android:layout_below="@id/submitButton"
+        android:layout_centerHorizontal="true"/>
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/nextButton" android:text="next" android:layout_below="@id/scoreTracker" android:onClick="next" android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoreTracker"
+        android:layout_centerHorizontal="true"
+        android:onClick="next"
+        android:text="next" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="back"
+        android:text="Back" />
+
+
 
 </RelativeLayout>

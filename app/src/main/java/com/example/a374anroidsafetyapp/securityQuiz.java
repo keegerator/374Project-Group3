@@ -140,4 +140,9 @@ public class securityQuiz extends AppCompatActivity {
 
     }
 
+    public void back(View v){
+        finish();
+    }
+
+
 }

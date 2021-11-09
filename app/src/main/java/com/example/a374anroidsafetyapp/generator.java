@@ -1,9 +1,9 @@
 package com.example.a374anroidsafetyapp;
 
 public class generator {
-    String[] questions = {"Each byte is assigned a unique","The Java compilier generates", "Every statement ends with","A group of statements are enclosed with","In Java, what is the size allocated for an int data type"};
-    String[][] answers = {{"Address","CPU","Bit","Variable"},{"Machine code","Byte Code","Source Code","HTML"},{"Period","Semicolon","Brackets","Ending Brace"},{"Parenthesis","Brackets","Period","Semicolon"},{"8 bytes","16 bytes","4 bytes","2 bytes"}};
-    int[] keys = {0,1,1,1,2};
+    String[] questions = {"Which of the following is the strongest password?","How often should you update your phone?", "What is the best way to protect your google account?","What is the first thing you should do with your new android device","Which setting(s) should be deactivated when not in use"};
+    String[][] answers = {{"$9981023Qtz!","Pa$$word123!","Password123","Qwerty!$"},{"Annually","As soon as available","Weekly","A week or two after release, to ensure the update works as intended"},{"VPN","2-factor Authentication","Antivirus software","Enable remote lock and wipe"},{"Download a VPN","Add a passcode to get in","Download Antivirus software","Enable two factor authentication"},{"Wifi","Bluetooth","Location Services","All of the above"}};
+    int[] keys = {0,1,1,1,3};
     int correct,total=0;
     int index = -1;
     public generator(){
