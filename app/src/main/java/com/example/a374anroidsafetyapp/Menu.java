@@ -40,5 +40,6 @@ public class Menu  extends AppCompatActivity implements View.OnClickListener {
         else
             startActivity(new Intent(this,recommendedSettings.class));
 
+
     }
 }

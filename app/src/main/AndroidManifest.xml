@@ -13,6 +13,12 @@
         <activity
             android:name=".securityQuiz"
             android:exported="true" />
+        <activity android:name=".passwordStrength"
+            android:exported="true"/>
+        <activity android:name=".recommendedSettings"
+            android:exported="true"/>
+        <activity android:name=".Phishing"
+            android:exported="true"/>
         <activity
             android:name=".Menu"
             android:exported="true"/>

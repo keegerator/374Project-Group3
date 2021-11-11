@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recommended Security Settings"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/passcodeRecommendation"
+        app:layout_constraintTop_toBottomOf="@id/banner"
+        android:text="1. Set up a passcode: An easy and straightforward way to protect your Android is with a password, pattern or PIN (passcode). To set up a lock screen password, open Settings on your device. Tap Lock screen. Some devices will display Security or Security and Screen Lock."
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/passcodeRecommendation"
+        android:id="@+id/locationRecommendation"
+        android:text="2. Find My Device: With the Find My Device app, you can locate your phone if you lose it.Once the app is installed, go into your device Settings and select Biometrics and Security. Tap Find My Device and toggle On. You must also ensure Location is enabled."
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/locationRecommendation"
+        android:id="@+id/twoFactorRecommendation"
+        android:text="3. Two-factor authentication: To add an extra layer of security to your smartphone, consider utilizing two-factor authentication (2FA)or two-step verification. You can use this sign-in method on any of your accounts, including Google.To set it up, go into your device Settings and select Google. Tap Manage your Google Account."
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/twoFactorRecommendation"
+        android:id="@+id/lockdownRecommendation"
+        android:text="4. Lockdown mode
+If your Android runs Android 9 Pie, Lockdown Mode will lock your device from all Smart Lock and biometric security options. This feature requires you to use either a PIN, pattern or password to unlock your Android.
+
+Why would you want to use this technique? Because Lockdown Mode overrides other lock features like biometrics, so someone (criminal or law enforcement) who forces you to unlock your smartphone with your fingerprint or face still can’t access your Android without your consent."
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="back"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
