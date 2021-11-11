@@ -1,0 +1,16 @@
+com/example/a374anroidsafetyapp/BuildConfig.java
+ com.example.a374anroidsafetyapp.BuildConfig
+com/example/a374anroidsafetyapp/generator.java
+ com.example.a374anroidsafetyapp.generator
+com/example/a374anroidsafetyapp/securityQuiz.java
+ com.example.a374anroidsafetyapp.securityQuiz
+com/example/a374anroidsafetyapp/Menu.java
+ com.example.a374anroidsafetyapp.Menu
+com/example/a374anroidsafetyapp/passwordStrength.java
+ com.example.a374anroidsafetyapp.passwordStrength
+com/example/a374anroidsafetyapp/recommendedSettings.java
+ com.example.a374anroidsafetyapp.recommendedSettings
+com/example/a374anroidsafetyapp/Phishing.java
+ com.example.a374anroidsafetyapp.Phishing
+com/example/a374anroidsafetyapp/MainActivity.java
+ com.example.a374anroidsafetyapp.MainActivity

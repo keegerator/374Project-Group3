@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alexw/AndroidStudioProjects/374Project-Group3/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Alexw/AndroidStudioProjects/374Project-Group3/app/src/main/res/layout/menu_activity.xml" value="0.22" />
+        <entry key="..\:/Users/Alexw/AndroidStudioProjects/374Project-Group3/app/src/main/res/layout/password_strength_activity.xml" value="0.2" />
+        <entry key="..\:/Users/Alexw/AndroidStudioProjects/374Project-Group3/app/src/main/res/layout/phishing_activity.xml" value="0.2" />
+        <entry key="..\:/Users/Alexw/AndroidStudioProjects/374Project-Group3/app/src/main/res/layout/recommended_settings_activity.xml" value="0.25" />
+        <entry key="..\:/Users/Alexw/AndroidStudioProjects/374Project-Group3/app/src/main/res/layout/security_quiz_activity.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

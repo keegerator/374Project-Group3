@@ -4,6 +4,16 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:ignore="RedundantNamespace">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <TextView
         android:id="@+id/banner"
         android:layout_width="match_parent"
@@ -16,54 +26,95 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        />
+        tools:ignore="HardcodedText" />
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
+        tools:ignore="HardcodedText,MissingConstraints"
         android:id="@+id/passcodeRecommendation"
         app:layout_constraintTop_toBottomOf="@id/banner"
         android:text="1. Set up a passcode: An easy and straightforward way to protect your Android is with a password, pattern or PIN (passcode). To set up a lock screen password, open Settings on your device. Tap Lock screen. Some devices will display Security or Security and Screen Lock."
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
+        tools:ignore="HardcodedText,MissingConstraints"
         app:layout_constraintTop_toBottomOf="@id/passcodeRecommendation"
         android:id="@+id/locationRecommendation"
         android:text="2. Find My Device: With the Find My Device app, you can locate your phone if you lose it.Once the app is installed, go into your device Settings and select Biometrics and Security. Tap Find My Device and toggle On. You must also ensure Location is enabled."
         android:textStyle="bold"
+        android:layout_marginBottom="10dp"
         />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
+        tools:ignore="HardcodedText,MissingConstraints"
         app:layout_constraintTop_toBottomOf="@id/locationRecommendation"
         android:id="@+id/twoFactorRecommendation"
         android:text="3. Two-factor authentication: To add an extra layer of security to your smartphone, consider utilizing two-factor authentication (2FA)or two-step verification. You can use this sign-in method on any of your accounts, including Google.To set it up, go into your device Settings and select Google. Tap Manage your Google Account."
         android:textStyle="bold"
+        android:layout_marginBottom="10dp"
         />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"
+        tools:ignore="HardcodedText,MissingConstraints"
         app:layout_constraintTop_toBottomOf="@id/twoFactorRecommendation"
         android:id="@+id/lockdownRecommendation"
-        android:text="4. Lockdown mode
-If your Android runs Android 9 Pie, Lockdown Mode will lock your device from all Smart Lock and biometric security options. This feature requires you to use either a PIN, pattern or password to unlock your Android.
-
+        android:text="4. Lockdown mode: If your Android runs Android 9 Pie, Lockdown Mode will lock your device from all Smart Lock and biometric security options. This feature requires you to use either a PIN, pattern or password to unlock your Android.
 Why would you want to use this technique? Because Lockdown Mode overrides other lock features like biometrics, so someone (criminal or law enforcement) who forces you to unlock your smartphone with your fingerprint or face still can’t access your Android without your consent."
         android:textStyle="bold"
+        android:layout_marginBottom="10dp"
         />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,MissingConstraints"
+            android:id="@+id/pinningRecommendation"
+            app:layout_constraintTop_toBottomOf="@id/lockdownRecommendation"
+            android:textStyle="bold"
+            android:text="5. Screen pinning:
+One of Android's most practical security options is also one of its most hidden features. I'm talking about screen pinning — something introduced way back in 2014's Lollipop era and rarely mentioned since.
+Screen pinning makes it possible for you to lock a single app or process to your phone and then require a password or fingerprint authentication"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,MissingConstraints"
+            android:id="@+id/passwordRecommendation"
+            app:layout_constraintTop_toBottomOf="@id/pinningRecommendation"
+            android:textStyle="bold"
+            android:text="6. Make sure your passwords are strong: One of the simplest ways to ensure your data is secure is to make secure passwords. Secure passwords generally contain capital and lower case letters, numbers, special characters (!$#@), and have a length from 8-12. "
+            android:layout_marginBottom="10dp"
+            />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:id="@+id/appPermissionRecommendation"
+        app:layout_constraintTop_toBottomOf="@id/lockdownRecommendation"
+        android:textStyle="bold"
+        android:text="7. App permissions
+When you download a new app, it’s easy to hit “accept” without reading any of the fine print; however, this habit grants apps access to an abundance of info. Thanks to app permissions, the social media giant was able to monitor and log user calls and messages.
+One way to help avoid this consented overreach, check through your app permissions from time to time to see what permissions your applications have.
+To check, open Settings and select Apps. Click the three-dot menu in the upper right corner and choose App permissions. Choose any app to view which secondary apps or services your selected application uses."
+        android:layout_marginBottom="30dp"
+        />
 
 
+
+    </LinearLayout>
+    </ScrollView>
     <Button
         android:id="@+id/backButton"
         android:layout_width="wrap_content"
@@ -76,5 +127,4 @@ Why would you want to use this technique? Because Lockdown Mode overrides other 
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
