@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream
 #Thu Nov 11 15:01:21 EST 2021
 base.2=C\:\\Users\\Alexw\\AndroidStudioProjects\\374Project-Group3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+=======
+#Tue Nov 16 00:30:14 EST 2021
+base.2=C\:\\Users\\kmd81\\Documents\\GitHub\\374Project-Group3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+>>>>>>> Stashed changes
 path.2=6/classes.dex
 base.1=C\:\\Users\\Alexw\\AndroidStudioProjects\\374Project-Group3\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex

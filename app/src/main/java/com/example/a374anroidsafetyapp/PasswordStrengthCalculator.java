@@ -99,7 +99,7 @@ public class PasswordStrengthCalculator implements TextWatcher {
     }
 
     private boolean hasSpecialChar(CharSequence cs) {
-        Pattern pattern = Pattern.compile("[!@#$%^&*()_=+-{}.<>|~]");
+        Pattern pattern = Pattern.compile("[!@#$%^&*()_=+{}/.<>|\\[\\]~-]");
         Matcher hasSpecialChar = pattern.matcher(cs);
         return hasSpecialChar.find();
     }

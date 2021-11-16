@@ -23,6 +23,7 @@
             android:name="com.example.a374anroidsafetyapp.securityQuiz"
             android:exported="true" />
         <activity
+<<<<<<< Updated upstream
             android:name="com.example.a374anroidsafetyapp.passwordStrength"
             android:exported="true" />
         <activity
@@ -32,6 +33,8 @@
             android:name="com.example.a374anroidsafetyapp.Phishing"
             android:exported="true" />
         <activity
+=======
+>>>>>>> Stashed changes
             android:name="com.example.a374anroidsafetyapp.Menu"
             android:exported="true" />
         <activity

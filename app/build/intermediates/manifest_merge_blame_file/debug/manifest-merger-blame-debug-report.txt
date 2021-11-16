@@ -11,7 +11,11 @@
 9-->C:\Users\Alexw\AndroidStudioProjects\374Project-Group3\app\src\main\AndroidManifest.xml
 10
 11    <application
+<<<<<<< Updated upstream
 11-->C:\Users\Alexw\AndroidStudioProjects\374Project-Group3\app\src\main\AndroidManifest.xml:5:5-34:19
+=======
+11-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:5:5-31:19
+>>>>>>> Stashed changes
 12        android:allowBackup="true"
 12-->C:\Users\Alexw\AndroidStudioProjects\374Project-Group3\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -30,6 +34,7 @@
 21        android:theme="@style/Theme.374AnroidSafetyApp" >
 21-->C:\Users\Alexw\AndroidStudioProjects\374Project-Group3\app\src\main\AndroidManifest.xml:11:9-56
 22        <activity
+<<<<<<< Updated upstream
 22-->C:\Users\Alexw\AndroidStudioProjects\374Project-Group3\app\src\main\AndroidManifest.xml:13:9-15:39
 23            android:name="com.example.a374anroidsafetyapp.securityQuiz"
 23-->C:\Users\Alexw\AndroidStudioProjects\374Project-Group3\app\src\main\AndroidManifest.xml:14:13-41
@@ -79,3 +84,42 @@
 46    </application>
 47
 48</manifest>
+=======
+22-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:13:9-15:39
+23            android:name="com.example.a374anroidsafetyapp.securityQuiz"
+23-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:14:13-41
+24            android:exported="true" />
+24-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:15:13-36
+25        <activity
+25-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:16:9-18:38
+26            android:name="com.example.a374anroidsafetyapp.Menu"
+26-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:17:13-33
+27            android:exported="true" />
+27-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:18:13-36
+28        <activity
+28-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:19:9-27:20
+29            android:name="com.example.a374anroidsafetyapp.MainActivity"
+29-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:20:13-41
+30            android:exported="true" >
+30-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:21:13-36
+31            <intent-filter>
+31-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:28:9-30:38
+38            android:name="com.example.a374anroidsafetyapp.PasswordStrength"
+38-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:29:13-45
+39            android:exported="true" />
+39-->C:\Users\kmd81\Documents\GitHub\374Project-Group3\app\src\main\AndroidManifest.xml:30:13-36
+40    </application>
+41
+42</manifest>
+>>>>>>> Stashed changes
